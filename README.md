@@ -29,8 +29,7 @@ ANswer: SELECT a.Cust_Name AS "Customer Name",
         FROM customer a  
         INNER JOIN salesman b  
         ON a.Salesman_Id=b.Salesman_Id 
-        WHERE b.Commission>.12 
-        AND a.City<>b.City;
+        WHERE b.Commission>.12;
         
         
         
